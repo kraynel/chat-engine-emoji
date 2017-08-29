@@ -1,14 +1,20 @@
 {
   "author": "Ian Jennings",
   "name": "chat-engine-emoji",
-  "version": "0.0.6",
-  "main": "src/plugin.js",
+  "version": "0.0.7",
+  "main": "dist/chat-engine-emoji.js",
   "dependencies": {
-    "dotty": "0.0.2",
-    "chat-engine": "0.2.x"
+    "chat-engine": "0.2.x",
+    "dotty": "0.0.2"
   },
   "devDependencies": {
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babelify": "^7.3.0",
+    "browserify": "^14.4.0",
     "chai": "^3.5.0",
-    "mocha": "^3.3.0"
+    "gulp": "^3.9.1",
+    "mocha": "^3.3.0",
+    "vinyl-source-stream": "^1.1.0"
   }
 }
